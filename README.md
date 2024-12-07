@@ -15,6 +15,9 @@ Let's create template file with name <b>langconfigs.template</b> and the followi
 \# this command will save config to file <br>
 <b>save <%config%> to ./configs/config_<%lang%>.ini </b><br>
 <br>
+\# just print diagnostic message <br>
+<b>print config for language <%lang%> was successfully saved to ./configs/config_<%lang%>.ini</b><br>
+<br>
 \# let's define some default fields <br>
 <b>langDescriptionFile = lang/description_<%lang%>.txt <br>
 langGroup = Romance <br></b>

@@ -1,7 +1,9 @@
 # ForEachMarker
 ForEachMarker allows to generate and maintain a number of structured documents. Generated documents can contain specific data or fields.<br>
 ### Usage:
->java ForEachMarker.java \<templateFileName><br>
+```console
+$ java ForEachMarker.java <templateFile>
+```
 ### Example:
 Let's create a template file with name <b>langconfigs.template</b> and the following content:<br>
 <br>
@@ -36,7 +38,9 @@ languageGroup=<%langGroup%>; <br>
 \=====================================<br>
 <br>
 Runs ForEachMarker with <b>langconfigs.template</b> template: <br>
-><b>java ForEachMarker.java langconfigs.fem</b><br>
+```console
+$ java ForEachMarker.java langconfigs.template
+```
 <br>
 This template will generate the following 3 config files: <br>
 <br>

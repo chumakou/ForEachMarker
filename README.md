@@ -3,7 +3,7 @@ ForEachMarker allows to generate and maintain a number of structured documents. 
 ### Usage:
 >java ForEachMarker.java \<templateFileName><br>
 ### Example:
-Let's create template file with name <b>langconfigs.template</b> and the following content:<br>
+Let's create a template file with name <b>langconfigs.template</b> and the following content:<br>
 <br>
 \=====================================<br>
 
@@ -25,7 +25,7 @@ langGroup = Romance <br></b>
 \# specific field value for pl language <br>
 <b>langGroup.pl = Slavic</b>
 
-\# miltiline field starts with ={{ <br>
+\# multiline field starts with ={{ <br>
 <b>
 config ={{ <br> 
 language=<%lang%>; <br>
